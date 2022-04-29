@@ -14,11 +14,18 @@ body{
 
 }
 
-div{
+#caja{
+    height: 450px;
+    background-color: #7a7a7a;
+}
 
+
+
+#teclas{
+    background-color: #7a7a7a;
 }
 
 button{
-    height: 65px;
- 
+    height: 70px;
+    
 }
