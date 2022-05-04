@@ -69,6 +69,7 @@ function igual(){
     console.log(expre[1])
     console.log(expre[2])
     num2=Number(expre[2])
+
     if(suma>0){
         document.getElementById("Expresion").value=Number(num1)+Number(num2)
     }else if(resta>0){
@@ -77,6 +78,21 @@ function igual(){
         document.getElementById("Expresion").value=Number(num1)*Number(num2)
     }else if(division>0){
         document.getElementById("Expresion").value=Number(num1)/Number(num2)
+    }else{
+        switch(expre[1]){
+            case '+':
+                document.getElementById("Expresion").value=Number(expre[0])+Number(expre[2])
+                break;
+            case '-':
+                document.getElementById("Expresion").value=Number(expre[0])-Number(expre[2])
+                break;
+            case '*':
+                document.getElementById("Expresion").value=Number(expre[0])-Number(expre[2])
+                break;
+            case '/':
+                document.getElementById("Expresion").value=Number(expre[0])+Number(expre[2])
+                break;
+        }
     }
     
     suma=0
