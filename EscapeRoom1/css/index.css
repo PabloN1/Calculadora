@@ -1,0 +1,16 @@
+.titulo{
+    background-color: gray;
+}
+
+
+#pie{
+    background-color: gray;
+    margin-top: 650px;
+    
+    height: 60px; 
+}
+
+#descripcion{
+    margin-top: 50px;
+    font-size: 35px;
+}

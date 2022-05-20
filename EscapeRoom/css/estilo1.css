@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+    justify-content: center;
+}
+
+
+.titulo{
+    background-color:rgb(78, 24, 128);
+    color: rgb(199, 138, 255);
+}
+
+.descrip{
+    margin-top: 20px;
+    border:15px solid black;
+    height: 550px;
+    font-size: 30px;
+    padding: 150px;
+    font-weight: bold;
+}
+
+#ok{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(199, 138, 255);
+    
+}

@@ -6,6 +6,7 @@ function ok1(){
         contador++
     }else{
         document.getElementById("descripcion").innerHTML="De acuerdo, vamos a ello pues!! en un par de segundos iremos a otro sitio..."
+        document.getElementById("ok").disabled=true;
         myTimeOut=setTimeout(cambioMenu1,2000)
         contador=0
     }

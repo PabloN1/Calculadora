@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/puzzle4.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="Cabecera">
+        <h1>Puzzle 3: Problema de los botones</h1>
+    
+    </div>
+
+    
+
+    <div id="botoncitos" class="row col-4 offset-4 text-center">   
+        <button class="col-3" id="boton1" onclick="boton(1)">1</button>
+        <button class="col-3" id="boton2" disabled onclick="boton(2)">2</button>
+        <button class="col-3" id="boton3" disabled onclick="boton(3)">3</button>
+        <button class="col-3" id="boton4" disabled onclick="boton(4)">4</button>
+        <button class="col-3" id="boton5" disabled onclick="boton(5)">5</button>
+        <button class="col-3" id="boton6" disabled onclick="boton(6)">6</button>
+        <button class="col-3" id="boton7" disabled onclick="boton(7)">7</button>
+        <button class="col-3" id="boton8" disabled onclick="boton(8)">8</button>
+        <button class="col-3" id="boton9" disabled onclick="boton(9)">9</button>
+        <button class="col-2 offset-4" id="botonok" disabled onclick="ok()">OK</button>
+
+    </div>
+    
+ 
+        
+
+
+    <p id="mensaje">Ya estamos casi fuera!!! Solo tienes que seguir la siguiente secuencia de botones y podremos salir de aqui por fin!!</p>
+    
+    <div class="pista col-2 offset-8">
+        <p> a lo mejor el orden no es el que esperas...</p>
+    </div>
+    
+    <footer id="pie" class="col-12"> </footer>
+    <script type="text/javascript" src="js/juegobotones.js"> </script>
+
+
+</body>
+</html>
